@@ -1,0 +1,95 @@
+html {
+	background: url("images/background.jpg") repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', sans-serif;
+}	
+
+header {
+	color: white;
+}	
+
+section {
+	border-radius: 15px;
+	border: 1px dashed #4a4; 
+	margin: .5em; 
+	padding: .5em; 
+}
+
+#headings, #paragraphs, #block, #lists, #div, #textlevel, #hyperlink, #span, #vertical_nav {		
+		color: white;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: #252626;
+	
+}
+
+a:hover {
+	border-bottom: 3px solid #4a4;
+	background-color: green; 	
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+body {			
+	max-width: 960px;
+	margin: 10px auto;
+}
+
+#ex_float {
+	float: right;
+}
+
+#vertical_nav	
+{ 
+	border: solid 0.1em #e1e1e1; 
+	border-radius: 1em; 
+	margin: 0; 
+	padding: 0 0.5em 1.5em 0.5em; 
+	width: 10em;
+	color: inherit; 
+	background-color: inherit; 
+}	
+
+#vertical_nav ul 
+{ 
+	margin: 0; 
+	padding: 0; 
+	color: inherit; 
+	background-color: inherit; 
+}
+#vertical_nav li	 
+{ 
+	margin: 1em 0 0 0; 
+	padding: 0; 
+	list-style: none; 
+	color: inherit; 
+	background-color: inherit; 
+}	
+
+#vertical_nav a 
+{ 
+	margin: 0; 
+	padding: 0 1em; 
+	display: block; 
+	text-decoration: none; 
+	border-bottom: 1px solid #A8BFCF; 
+	color: inherit; 
+	background-color: inherit; 
+}
+#vertical_nav a:hover 
+{ 
+	border-bottom: solid 1px #ffa20f; 
+	color: inherit; 
+	background-color: inherit; 
+}
