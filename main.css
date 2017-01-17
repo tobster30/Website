@@ -1,0 +1,26 @@
+html {
+	background: url("images/background.jpg") repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#questions, #elements, #personal, #navigation, #headings,
+#paragraphs, #block, #lists, #div, #textlevel, #hyperlink, 
+#span, #name, #about_me, #education, #employment, #hobby,
+#references, #audio, #webms, footer, h1{
+		color: white;
+		border: 1px solid grey; 
+		margin: .5em; 
+		padding: .5em;
+		background-color: #252626;
+}
+
+body {			
+	max-width: 960px;
+	margin: 10px auto;
+	background-color: #0C0D0D;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
