@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Gumby template file</title>
+      <!-- Include meta elements here!  -->
+	   
+      <!-- Gumby CSS  -->
+      <link rel="stylesheet" href="gumby/css/gumby.css">
+      <!-- Gumby uses Moderniser JS -->      
+      <script src="gumby/js/libs/modernizr-2.6.2.min.js"></script>
+
+      <!-- Application custom CSS -->       
+      <link rel="stylesheet" href="custom.css">
+   </head>
+   <body>
+   <div id="demo_navbar">
+   <div id="main_nav" class="pretty navbar row">
+      <a href="#" gumby-trigger="#main_nav > ul" class="toggle">
+            <i class="icon-menu"></i></a>
+      <h5 class="four columns logo">My site<a href="index.html"></a></h5>
+      <ul class="eight columns">
+         <li><a href="#">Portfolio</a>
+            <div class="dropdown">
+               <ul>
+                  <li><a href="#">Essential HTML</a>
+                     <div class="dropdown">
+                        <ul>
+                           <li><a href="structure.html">Structure</a></li>
+                           <li><a href="common_elements.html">Common Elements</a></li>
+                           <li><a href="my_cv.html">My CV</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="#">Necessary HTML</a>
+                     <div class="dropdown">
+                        <ul>
+                           <li><a href="graphics.html">Graphics</a></li>
+                           <li><a href="temporal_data.html">Temporal Data</a></li>
+                           <li><a href="forms.html">Forms</a></li>
+                           <li><a href="tables.html">Tables</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="#">Essential CSS</a>
+                       <div class="dropdown">
+                        <ul>
+                           <li><a href="selectors.html">Selectors</a></li>
+                           <li><a href="common_css.html">Common CSS</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="#">Necessary CSS</a>
+                       <div class="dropdown">
+                        <ul>
+                           <li><a href="gumby_template.html">Gumby Framework</a></li>
+                        </ul>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+        </li>
+        <li><a href="home.html">Website project</a></li>
+     </ul>
+   </div>
+</div>
+   
+	   <!-- Header Row  -->
+	<div class="row">
+	   <!-- Left logo Column -->
+	   <div class="three columns"> … </div>
+	   <!-- Right header Column -->
+	   <div class="nine columns"> … </div>
+	</div>
+
+	<!-- Content and Navigation Row  -->
+	<div class="row">
+	   <!-- Left Content Column -->
+	   <div class="eight columns">
+		  <div class="row"> 
+			  <p>This is class <span class="alert default">alert default 
+			</span> and this is <span class="alert info">alert info
+			</span> and this <span class="alert success">alert success
+			</span> and this <span class="alert danger">alert danger</span> style.</p>
+		  </div>
+		  <div class="row"> 
+			   <button class="small danger pretty btn">Click me!</button>
+			<button class="medium secondary metro btn">Click me!</button>
+			<button class="large primary pretty btn">Click me!</button>
+			<button class="medium success metro btn">Click me!</button>
+			<button class="small default pretty btn">Click me!</button>
+		  </div>
+		  <div class="row"> … </div>
+	   </div>
+	   <!-- Right Navigation Column -->
+	   <div class="four columns"> … </div>
+	</div>
+
+	<!-- Footer Row  -->
+	<div class="row">
+	   <div class="twelve columns"> … </div>
+	</div>
+	
+	<li><div class="medium primary btn"><a href="index.html">Back to home</a></div>
+</li>	
+	
+       
+	  	  
+      <!-- Gumby JS includes -->
+      <script src="gumby/js/libs/jquery-2.0.2.min.js"></script>
+      <script gumby-touch="gumby/js/libs" src="gumby/js/libs/gumby.min.js"></script>
+   </body>
+</html>
